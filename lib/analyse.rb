@@ -35,9 +35,7 @@ class Analyse
         @known = false
       end
     end
-    byebug
     @analysis = prepare_response question,@type
-    byebug
     if @known
       @analysis
     else
